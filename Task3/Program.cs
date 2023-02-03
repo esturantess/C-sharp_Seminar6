@@ -34,3 +34,27 @@ if (number <= 0)
 }
 else
     Console.WriteLine("Первые " + (number) + " чисел Фибоначчи: " + "[" + String.Join(", ", Fibonacci(number)) + "]");
+
+// Другой вариант решения:
+
+// int Number(string str)
+// {
+// System.Console.WriteLine(str);
+// return Convert.ToInt32(Console.ReadLine());
+// }
+
+// int N = Number("Введите N: ");
+// System.Console.WriteLine(N);
+
+// int firstNum = 0;
+// int secondNum = 1;
+// System.Console.Write("0, 1");
+
+// for (int i = 0; i < N-2; i++)
+// {
+// int fibonacci = firstNum + secondNum;
+// System.Console.Write($", {fibonacci}");
+// firstNum = secondNum;
+// secondNum = fibonacci;
+// }
+// System.Console.WriteLine(" ");
